@@ -1,0 +1,108 @@
+    1  history -w
+    2  cd eclipse-workspace/CarrascoOlivaresHugo_Factorial
+    3  git init
+    4  git remote add origin https://github.com/hcaroli381/DAM2526_COH_Factorial.git
+    5  git status
+    6  git remote -v
+    7  git nano .gitignore
+    8  nano .gitignore
+    9  git status
+   10  git add .
+   11  git commit -m "Version inicial, pide numero y comprueba que sea mayor que 0"
+   12  git push
+   13  git push --set-upstream origin main
+   14  git status
+   15  git add .
+   16  git commit -m "Modularizada la función de pedir un numero"
+   17  git push
+   18  git status
+   19  git add .
+   20  git commit -m "Añadido resultado orientado para versiones posteriores"
+   21  git push
+   22  git log --oneline
+   23  git switch -c factorial_recursivo
+   24  git status
+   25  git add .
+   26  git commit -m "Añadida funcion de factorial recursivo"
+   27  git status
+   28  git log --oneline
+   29  git status
+   30  git add .
+   31  git commit -m "Muestra por pantalla el resultado del factorial"
+   32  git log --oneline
+   33  git status
+   34  git add .
+   35  git commit -m "Añadida documentacion sobre nuestra funcion de factorial recursivo"
+   36  git log --graph
+   37  git log
+   38  git log --oneline --graph
+   39  git log --oneline --graph -all
+   40  git log --oneline --graph --all
+   41  git log --graph --all
+   42  git switch main
+   43  git status
+   44  git add .
+   45  git commit -m "Mejorada la funcion de pedirNumero, prohibicion de decimales"
+   46  git push
+   47  git status
+   48  git diff
+   49  git add .
+   50  git commit -m "Añadida funcion de calculo de factorial con do-while"
+   51  git status
+   52  git diff
+   53  git add .
+   54  git commit -m "Añadida salida por pantalla de nuestro factorial con do-while"
+   55  git status
+   56  git log --oneline
+   57  git reset --hard 34fde4b
+   58  git log --oneline
+   59  git reset --hard 072a132
+   60  git log --oneline
+   61  git push
+   62  git status
+   63  git status
+   64  git add .
+   65  git commit -m "Añadida salida por pantalla de factorial con do-while"
+   66  git push
+   67  git log --graph --all
+   68  git switch factorial_recursivo
+   69  git rebase main
+   70  touch src/faactorial_COH/Factorial.java
+   71  touch src/factorial_COH/Factorial.java
+   72  nano src/factorial_COH/Factorial.java
+   73  git rebase --continue
+   74  git sttaus
+   75  git status
+   76  git add .
+   77  git rebase --continue
+   78  git log --oneline
+   79  git push
+   80  git push --set-upstream origin factorial_recursivo
+   81  git switch main
+   82  git log --oneline --graph -all
+   83  git log --oneline --graph --all
+   84  git status
+   85  git switch factorial_recursivo
+   86  git status
+   87  git add .
+   88  git commit -m "Añadida aclaracion de que el proceso fue realizado de forma recursiva"
+   89  git push
+   90  git switch main
+   91  git merge factorial_recursivo
+   92  git push
+   93  git add .
+   94  git commit -m "Fusion de ramas"
+   95  git status
+   96  git log --oneline
+   97  git revert 80c2845
+   98  git status
+   99  git log --oneline
+  100  git push
+  101  git log --oneline --graph -all
+  102  git log --oneline --graph --all
+  103  git status
+  104  git status
+  105  git add .
+  106  git commit -m "Muestra de verificacion de los apartados 2 y 3 y del rebase realizado"
+  107  git push
+  108  history > COH_Factorial.txt
