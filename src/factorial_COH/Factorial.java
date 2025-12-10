@@ -14,7 +14,7 @@ public class Factorial {
 		} else {
 			System.out.println("Has introducido el número: " + num);
 		}
-		System.out.println("RESULTADO - En versiones posteriores se calculará el factorial del número " + num);
+		System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialBucle(num));
 
 	}
 
