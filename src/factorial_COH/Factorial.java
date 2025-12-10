@@ -38,4 +38,13 @@ public class Factorial {
 		return num;
 	}
 
+	private static long factorialBucle(int n) {
+		int multiplicador = 1;
+		do {
+			multiplicador = multiplicador * n;
+			n = n - 1;
+		} while (n > 1);
+		return multiplicador;
+	}
+
 }
